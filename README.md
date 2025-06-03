@@ -55,10 +55,10 @@ A Redstone Receiver can also power another Redstone Sender, allowing for more co
 In order to support survival gameplay, there are recipes for each device. However they are not custom but require a default recipe to craft. You can unlock the recipe when you unlock any redstone recipe.
 
 Crafting recipe for a Redstone Sender<br>
-![image](https://cdn.discordapp.com/attachments/972457153979875330/1040093579906928660/crafting-grid.png)
+![image](https://github.com/xsmeths/WirelessRedstone/blob/master/assets/crafting-grid.png)
 
 Crafting recipe for a Redstone Receiver<br>
-![image](https://cdn.discordapp.com/attachments/972457153979875330/1040093541013143602/crafting-grid_1.png)
+![image](https://github.com/xsmeths/WirelessRedstone/blob/master/assets/crafting-grid_1.png)
 
 <br>
 <b><span style="font-size: 18px"><span style="color: #ff4d4d">Permissions</span></span></b><br>
