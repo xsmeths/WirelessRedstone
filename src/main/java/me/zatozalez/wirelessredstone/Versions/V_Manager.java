@@ -35,6 +35,8 @@ public class V_Manager {
             case "1.17":
             case "1.18":
             case "1.19":
+            case "1.20":
+            case "1.21":
                 return true;
             default:
                 return false;
@@ -51,8 +53,12 @@ public class V_Manager {
                 return V_1_18.getItemStack();
             case "1.19":
                 return V_1_19.getItemStack();
+            case "1.20":
+                return V_1_20.getItemStack();
+            case "1.21":
+                return V_1_21.getItemStack();
         }
-        return null;
+        return V_1_21.getItemStack();
     }
 
     public static boolean cancelPistonEvent(BlockPhysicsEvent e, Block pistonBlock, Piston piston){
@@ -65,8 +71,12 @@ public class V_Manager {
                 return V_1_18.cancelPistonEvent(e, pistonBlock, piston);
             case "1.19":
                 return V_1_19.cancelPistonEvent(e);
+            case "1.20":
+                return V_1_20.cancelPistonEvent(e);
+            case "1.21":
+                return V_1_21.cancelPistonEvent(e);
             default:
-                return false;
+                return V_1_21.cancelPistonEvent(e);
         }
     }
 

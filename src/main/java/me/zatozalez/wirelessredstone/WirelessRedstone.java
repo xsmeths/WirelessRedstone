@@ -39,13 +39,12 @@ public final class WirelessRedstone extends JavaPlugin {
 
         String latest = V_Manager.getLatestVersion();
         if(latest != null && !latest.equals(V_Manager.pluginVersion)){
-            WirelessRedstone.Log(new U_Log(U_Log.LogType.WARNING, "New update available [" + latest + "]! Visit " + "https://www.spigotmc.org/resources/101871/" + " to download the latest version."));
+            //WirelessRedstone.Log(new U_Log(U_Log.LogType.WARNING, "New update available [" + latest + "]! Visit " + "https://www.spigotmc.org/resources/101871/" + " to download the latest version."));
         }
         V_Manager.setVersion();
-        Bukkit.getConsoleSender().sendMessage(getDescription().getFullName() + " by " + ChatColor.RED + getDescription().getAuthors().toString().replace("[", "").replace("]", ""));
+        Bukkit.getConsoleSender().sendMessage(getDescription().getFullName() + " by " + ChatColor.RED + getDescription().getAuthors().toString().replace("[", "").replace("]", "") + " and updated by JaySmethers");
         if(!V_Manager.isCompatible()){
-            WirelessRedstone.Log(new U_Log(U_Log.LogType.ERROR, "Unsupported version [" + V_Manager.minecraftVersion + "]. Disabling WirelessRedstone."));
-            Bukkit.getPluginManager().disablePlugin(WirelessRedstone.getPlugin());
+            WirelessRedstone.Log(new U_Log(U_Log.LogType.ERROR, "Untested version [" + V_Manager.minecraftVersion + "]. Proceed with caution."));
             return;
         }
 

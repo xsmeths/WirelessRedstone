@@ -45,6 +45,7 @@ public class U_Permissions {
     public static void register(){
         for(Permissions perm : Permissions.values()){
             Permission p = new Permission(getNode(perm));
+            Bukkit.getPluginManager().removePermission(p);
             Bukkit.getPluginManager().addPermission(p);
         }
     }
