@@ -1,5 +1,6 @@
 # <span style="color: #ff4d4d"><b><span style="font-size: 26px">WirelessRedstone </span></b><span style="font-size: 15px">v0.4.4.5</span></span><br>
 A simple redstone plugin that allows for wireless redstone signals to be sent over infinite distances and through worlds.
+For support you can join my discord at <a href="https://discord.gg/gJkMwN63MU" target="_blank" class="externalLink" rel="nofollow">https://discord.gg/gJkMwN63MU
 </a><br>
 
 <br>
