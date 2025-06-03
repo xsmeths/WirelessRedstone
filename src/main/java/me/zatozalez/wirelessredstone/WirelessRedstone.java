@@ -39,7 +39,7 @@ public final class WirelessRedstone extends JavaPlugin {
 
         String latest = V_Manager.getLatestVersion();
         if(latest != null && !latest.equals(V_Manager.pluginVersion)){
-            //WirelessRedstone.Log(new U_Log(U_Log.LogType.WARNING, "New update available [" + latest + "]! Visit " + "https://www.spigotmc.org/resources/101871/" + " to download the latest version."));
+            WirelessRedstone.Log(new U_Log(U_Log.LogType.WARNING, "New update available [" + latest + "]! Visit " + "https://github.com/xsmeths/WirelessRedstone/releases/latest" + " to download the latest version."));
         }
         V_Manager.setVersion();
         Bukkit.getConsoleSender().sendMessage(getDescription().getFullName() + " by " + ChatColor.RED + getDescription().getAuthors().toString().replace("[", "").replace("]", "") + " and updated by JaySmethers");

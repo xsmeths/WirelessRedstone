@@ -19,7 +19,7 @@ public class V_Manager {
     public static String minecraftVersion = "0.0.0";
     public static String pluginVersion = "0.0.0";
     public static String latestPluginVersion = "0.0.0";
-    private static String api = "https://api.github.com/repos/ZatoZalez/WirelessRedstone/releases/latest";
+    private static String api = "https://api.github.com/repos/xsmeths/WirelessRedstone/releases/latest";
     public static void setVersion(){
         String v = Bukkit.getVersion();
         v = v.substring(v.indexOf("(") + 1);
