@@ -139,9 +139,13 @@ OverloadCooldown: 10<br>
 <br>
 
 <b><span style="font-size: 18px"><span style="color: #ff4d4d">Languages Support & Messages</span></span></b><br>
-Check
-https://www.spigotmc.org/resources/wirelessredstone.101871/
-for more information on messages and languages.
+Switching languages is possible by entering the available language code into the config.yml file at "language". Delete the messages.yml file and restart/reload the server to generate a messages.yml file with the desired language.
+
+Languages available
+ EN
+ DE
+ NL
+ CZ
 
 <br>
 <b><span style="font-size: 18px"><span style="color: #ff4d4d">API Support</span></span></b><br>
@@ -159,11 +163,4 @@ U_Api api = new U_Api();
 
 <br>
 <br>
-
-<b><span style="font-size: 18px"><span style="color: #ff4d4d">Community Support</span></span></b><br>
-If you have any further questions don't forget to contact me through discord or spigot.
-Satisfied? Please leave a review!
-
-Check out my Discord for suggestions, tips, questions and support.
-https://discord.gg/TsRTa7BUWm
 
