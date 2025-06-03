@@ -122,8 +122,8 @@ Permissions: false<br>
 Messages: true<br>
 MaxDeviceInServer: 0<br>
 MaxDevicesPerPlayer: 0<br>
-BreakThirdDevices: true
-Recipes: true
+BreakThirdDevices: true<br>
+Recipes: true<br>
 MaxLinksInServer: 0<br>
 MaxLinksPerPlayer: 0<br>
 MaxLinksPerDevice: 0<br>
